@@ -30,13 +30,28 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        with:
+          # Automatically enable GitHub Pages for this repo if not already enabled.
+          # This prevents the "Get Pages site failed" error on first deployment.
+          enablement: true
+
+      - name: Prepare site files
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          cp -r tr _site/
+          cp -r fr _site/
+          # Copy CNAME only if a custom domain is configured
+          if [ -f CNAME ]; then cp CNAME _site/; fi
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository root
-          path: '.'
+          path: '_site'
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
