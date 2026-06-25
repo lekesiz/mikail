@@ -1,19 +1,19 @@
 # Mikail Lekesiz — Konsolide AI Hafıza Envanteri
-**v2.1 — Kullanıcı Onaylı + mikail.net Doğrulaması**
+**v2.2 — Kullanıcı Onaylı + Çoklu Web Doğrulaması**
 
 ## 1. Metadata
 
 | Alan | Bilgi |
 |---|---|
-| Versiyon | 2.1 — Kullanıcı onaylı, kamuya açık web kaynaklarıyla zenginleştirilmiş |
+| Versiyon | 2.2 — Kullanıcı onaylı, mikail.net / portfolio.lekesiz.fr / lekesiz.* / Viadeo / WORLDEF ile zenginleştirilmiş |
 | Güncelleme Tarihi | 2026-06-25 |
-| Kaynaklar | 9 AI modeli · Gmail · Google Drive · Kullanıcı yanıtları · Reflektif psikometrik rapor (RF-1985-F117) · TUSAŞ teknik rapor (PDF) · **mikail.net (kamuya açık site taraması)** |
-| Doğrulama Yöntemi | Kullanıcı 10 soruya doğrudan yanıt verdi + 2 belge yükledi + kamuya açık site içeriği çapraz doğrulandı |
-| Güven Seviyesi | **Yüksek** (çekirdek profil kullanıcı onaylı; site verileri public ve tutarlı) |
+| Kaynaklar | 9 AI modeli · Gmail · Google Drive · Kullanıcı yanıtları · Reflektif psikometrik rapor (RF-1985-F117) · TUSAŞ teknik rapor (PDF) · **mikail.net / portfolio.lekesiz.fr / lekesiz.* / Viadeo / WORLDEF (kamuya açık web taraması)** |
+| Doğrulama Yöntemi | Kullanıcı 10 soruya doğrudan yanıt verdi + 2 belge yükledi + kamuya açık site içerikleri çapraz doğrulandı |
+| Güven Seviyesi | **Yüksek** (çekirdek profil kullanıcı onaylı; site verileri public ve büyük ölçüde tutarlı) |
 | GitHub Dosya Adı | ai-memory-CONSOLIDATED-mikail-lekesiz.md |
-| Harici kaynak notu | Ayrıntılı site çıkarımı için bkz. [`external-sources/mikail.net-scrape.md`](../external-sources/mikail.net-scrape.md) |
+| Harici kaynak notu | Ayrıntılı çıkarımlar için bkz. [`external-sources/`](../external-sources/) |
 
-> **Notasyon:** `[U]` = kullanıcı tarafından doğrudan onaylandı · `[R]` = Reflektif raporu · `[D]` = Google Drive · `[G]` = Gmail · `[W]` = Kamuya açık web (mikail.net)
+> **Notasyon:** `[U]` = kullanıcı tarafından doğrudan onaylandı · `[R]` = Reflektif raporu · `[D]` = Google Drive · `[G]` = Gmail · `[W]` = Kamuya açık web
 
 ---
 
@@ -25,7 +25,7 @@ Reflektif platformunun kendi psikometrik testi: RIASEC baskın kodu **IAE** (Ara
 
 ---
 
-## 2.1 Kamuya Açık Profil Özeti (mikail.net)
+## 2.1 Kamuya Açık Profil Özeti (mikail.net ve Aile Siteler)
 
 | Alan | Değer | Kaynak |
 |---|---|---|
@@ -35,9 +35,13 @@ Reflektif platformunun kendi psikometrik testi: RIASEC baskın kodu **IAE** (Ara
 | Temel değerler | Innovation First · Global Perspective · Human-Centered AI | `[W]` |
 | GitHub projeleri | **243+** | `[W]` |
 | Uzman teknolojiler | **47+** | `[W]` |
-| Blog yazıları | **275+** | `[W]` |
+| Blog yazıları | **275+** sitede belirtilmiş; tarama ile **351 yazı** tespit edildi | `[W]` |
+| Kamu profil alan adları | mikail.net · portfolio.lekesiz.fr · lekesiz.eu · lekesiz.fr · lekesiz.info · lekesiz.net | `[W]` |
+| LinkedIn | https://www.linkedin.com/in/mikail-lekesiz/ | `[W]` |
+| Viadeo | Netz Informatique CEO (2016–günümüz), Anadolu Üniversitesi 2008–2012 | `[W]` |
+| WORLDEF | **Approved Speaker** — İstanbul 2026, Reflektif.net vaka çalışması | `[W]` |
 
-> **Not:** Konsolide profilde mesleki deneyim **20+ yıl** olarak geçer; mikail.net ana sayfa pazarlama metninde **15+ yıl** kullanır. Her iki ifade de bağlama göre tutarlıdır.
+> **Not:** Konsolide profilde mesleki deneyim **20+ yıl** olarak geçer; kamuya açık vitrin metinlerinde **15+ yıl** kullanılır. Her iki ifade de bağlama göre tutarlıdır.
 
 ---
 
@@ -50,8 +54,11 @@ Reflektif platformunun kendi psikometrik testi: RIASEC baskın kodu **IAE** (Ara
 | E-posta (FR) | mikail@lekesiz.fr | Yüksek `[W]` |
 | E-posta (TR) | mikail@lekesiz.org | Yüksek `[W]` |
 | GitHub | lekesiz | Yüksek `[G]` |
+| LinkedIn | https://www.linkedin.com/in/mikail-lekesiz/ | Yüksek `[W]` |
 | X / Twitter | @lekesiz_mikail | Yüksek `[W]` |
+| Viadeo | https://viadeo.journaldunet.com/p/mikail-lekesiz-706076 | Orta `[W]` |
 | Portfolio | https://portfolio.lekesiz.fr | Yüksek `[W]` |
+| Diğer kamu profilleri | lekesiz.eu · lekesiz.fr · lekesiz.info · lekesiz.net | Yüksek `[W]` |
 | Doğum yılı | ~1985 (RF-1985-F117 ID) | Orta `[R]` |
 | Yaşadığı ülkeler | Fransa (Haguenau/Strasbourg) + Türkiye (İstanbul) | Yüksek `[U]` |
 | Türkiye aile bağlantısı | Tekirdağ / Şarköy | Orta |
@@ -226,10 +233,20 @@ Reflektif platformunun kendi psikometrik testi: RIASEC baskın kodu **IAE** (Ara
 - BilanCompetence.AI v2 — aktif `[U]`
 - haguenau.pro AEO/GEO — aktif
 - n8n otomasyon — aktif
-- mikail.net blog — aktif `[G-alert]`
+- mikail.net blog — aktif `[G-alert+W]`
 - Osmanlı belgeleri — uzun vade
 - "Generative Psychometrics" preprint — EdArXiv, gönderim aşaması
 - UniStra eğitim görevleri — aktif `[G]`
+
+### 7.8 İçerik Üretimi (mikail.net Blog) `[W]`
+
+| Metrik | Değer |
+|---|---|
+| Toplam yazı | **351** (2023-03-07 — 2026-06-20) |
+| Site beyanı | 275+ blog yazısı |
+| Ana diller | Türkçe (çoğunluk), Fransızca, İngilizce |
+| Yoğun tema | 360° Hakikat/Karar Motoru, Reflektif & kariyer, AI/teknik rehberler, felsefe/insan |
+| Envanter dosyası | [`external-sources/mikail.net-blog-inventory.md`](../external-sources/mikail.net-blog-inventory.md) |
 
 ---
 
@@ -266,14 +283,31 @@ Reflektif platformunun kendi psikometrik testi: RIASEC baskın kodu **IAE** (Ara
 
 | Alan | Detay | Güven |
 |---|---|---|
-| Anadolu Üniversitesi | Bilgi Teknolojileri eğitimi `[W]` | Yüksek |
-| Sakarya Üniversitesi | Uzaktan eğitim programları `[W]` | Yüksek |
+| Anadolu Üniversitesi | Bilgi Teknolojileri / Information Management, ~2008–2012 (Viadeo) · ID 2008-15959 `[W]` | Yüksek |
+| Sakarya Üniversitesi UZEM | Java & Oracle (2014) · C#, ASP.NET & SQL Server (2013) `[W]` | Yüksek |
+| Université de Strasbourg | LP DWCA — Licence Professionnelle Développeur Web et Conception d'Applications (2025) `[W]` | Yüksek |
 | Sorbonne M1 AI | Müracaat aşamasında, **gelecek yıl başlayacak** `[U]` | Yüksek |
 | UniStra eğitmen | Web Full Stack, LPDWCA, Master SYNVA `[G]` | Yüksek |
 | Qualiopi | Netz Informatique organisme de formation | Yüksek |
 | ISO 21001 | Netz Informatique eğitim standardı `[W]` | Yüksek |
 | Microsoft/IBM | Remote proje rolleri `[U]` — tam zamanlı değil | Yüksek |
 | Mesleki deneyim | 20+ yıl (kamu yüzünde 15+ yıl) | Yüksek `[U+W]` |
+
+### 9.1 Sertifikalar
+
+| Sertifika | Veren | Tarih | ID | Güven |
+|---|---|---|---|---|
+| ChatGPT + Zapier: Automate Email Replies with AI | Vanderbilt University | Ara 2024 | CX6R05UJ6FBQ | Yüksek `[W]` |
+| Introduction to Google Workspace Administration | Google Cloud | Kas 2024 | CEOF4A1GG3ND | Yüksek `[W]` |
+| Certificat de Compétences en Entreprise — Exercer la mission de formateur en entreprise (RS 5365) | CCI France / CCI Alsace Eurométropole | 21 Oca 2021 (yenilenme 21 Nis 2026) | 2021-0011724-5 | Yüksek `[W]` |
+
+---
+
+## 9.2 Etkinlikler ve Konuşmacılık
+
+| Etkinlik | Rol | Tarih / Konum | Detay | Güven |
+|---|---|---|---|---|
+| WORLDEF Ecom Top Voice Istanbul 2026 | **Approved Speaker** | 11 Haz 2026 · İstanbul | Reflektif.net vaka çalışması; 920+ meslek referansı, bilimsel psikometri + kişiselleştirilmiş AI | Yüksek `[W]` |
 
 ---
 
@@ -310,9 +344,14 @@ Reflektif platformunun kendi psikometrik testi: RIASEC baskın kodu **IAE** (Ara
 | netzinformatique.fr | Netz kurumsal | Aktif | Orta |
 | recup-donnee.fr | Netz veri kurtarma hizmeti | Aktif `[W]` | Yüksek |
 | formation-haguenau.fr | Netz eğitim platformu | Aktif `[W]` | Yüksek |
+| lekesiz.eu | Kısa FR kamu profili | Aktif `[W]` | Orta |
+| lekesiz.fr | Kısa FR kamu profili | Aktif `[W]` | Orta |
+| lekesiz.info | Kısa EN kamu profili | Aktif `[W]` | Orta |
+| lekesiz.net | Kısa EN/TR kamu profili | Aktif `[W]` | Orta |
 | @netzinformatique | Instagram | Aktif `[G]` | Yüksek |
 | @lekesiz_mikail | X / Twitter | Aktif `[W]` | Yüksek |
 | github.com/lekesiz | Tüm projeler | Aktif | Yüksek |
+| linkedin.com/in/mikail-lekesiz | Profesyonel ağ | Aktif `[W]` | Yüksek |
 
 ---
 
@@ -345,26 +384,30 @@ Psikometrik rapor, önceki gözlemlerimizi derinlemesine doğrulamaktadır:
 
 ---
 
-## 14. Modeller Arası Tutarsızlık Tablosu — v2.0 Güncellemesi
+## 14. Modeller Arası Tutarsızlık Tablosu — v2.2 Güncellemesi
 
-| Konu | Önceki Durum | v2.0 (Kullanıcı Onaylı) |
+| Konu | Önceki Durum | v2.2 (Kullanıcı Onaylı / Web Doğrulamalı) |
 |---|---|---|
 | İngiltere şirketi | Doğrulanmamış `[?]` | **cortexai.uk — DOĞRULANDI** `[U]` |
-| Microsoft/IBM | Gemini: "full-time" → halüsinasyon şüphesi | **Remote proje rolleri — DOĞRULANDI** `[U]` |
+| Microsoft/IBM | Gemini: "full-time" → halüsinasyon şüphesi | **Remote proje rolleri — DOĞRULANDI** `[U]` (lekesiz.* tam zamanlı sunuyor; kullanıcı revizyonu geçerli) |
 | Sorbonne M1 | "Devam ediyor" | **Müracaat aşamasında, gelecek yıl** `[U]` |
 | SFR anlaşmazlığı | Doğrulanmamış | **Mahkeme devam ediyor, SFR iflas etti** `[U]` |
 | Reflektif kullanıcı sayısı | Bilinmiyordu | **1000+** `[U]` |
+| Reflektif meslek referansı | Bilinmiyordu | **920+ meslek** `[W]` (WORLDEF) |
 | Netz markaları | "Doğrulanmalı" | **Hepsi aktif, Netz çatısı altında** `[U]` |
 | Gayrimenkul | "Düşük/doğrulanmalı" | **FR + TR her ikisinde mülkler** `[U]` |
 | Yaş | Kimi: "30" → düşük güven | **~1985 doğumlu (~41 yaş)** `[R]` |
 | mikail.ai | Bilinmiyordu | **Aktif yeni proje** `[U]` |
 | Sorbonne | "Aktif öğrenci" → hata | **Müracaat aşamasında** `[U]` |
-| Eğitim geçmişi | Önceki versiyonda yok | **Anadolu Üniversitesi + Sakarya Üniversitesi uzaktan eğitim** `[W]` |
+| Eğitim geçmişi | Önceki versiyonda yok | **Anadolu Üniversitesi (~2008–2012) + Sakarya UZEM + LP DWCA (2025)** `[W]` |
+| Sertifikalar | Bilinmiyordu | **ChatGPT+Zapier, Google Workspace Admin, CCI Formateur RS 5365** `[W]` |
 | Netz sertifikaları | Yalnızca Qualiopi biliniyordu | **Qualiopi + ISO 21001** `[W]` |
 | Netz mağaza trafiği | Bilinmiyordu | **~2.000 ziyaretçi/ay** `[W]` |
 | Netz iş ortakları | Bilinmiyordu | **TD Synnex, Ingram Micro, Acadia Info, Also, GPDis, Amazon Pro, Kosatec, FlexIT Circular, Grenke Leasing** `[W]` |
-| Kamuya açık istatistikler | Bilinmiyordu | **243+ GitHub projesi · 47+ teknoloji · 275+ blog yazısı** `[W]` |
-| İletişim kanalları | Gmail + GitHub | **mikail@lekesiz.fr · mikail@lekesiz.org · @lekesiz_mikail · portfolio.lekesiz.fr** `[W]` |
+| Kamuya açık istatistikler | Bilinmiyordu | **243+ GitHub projesi · 47+ teknoloji · 275+ blog yazısı (gerçek tarama: 351)** `[W]` |
+| İletişim kanalları | Gmail + GitHub | **mikail@lekesiz.fr · mikail@lekesiz.org · @lekesiz_mikail · portfolio.lekesiz.fr · LinkedIn · Viadeo** `[W]` |
+| Etkinlik / konuşmacılık | Bilinmiyordu | **WORLDEF Istanbul 2026 Approved Speaker** `[W]` |
+| Ek kamu profilleri | Bilinmiyordu | **lekesiz.eu · lekesiz.fr · lekesiz.info · lekesiz.net** `[W]` |
 
 ---
 
@@ -384,7 +427,7 @@ Psikometrik rapor, önceki gözlemlerimizi derinlemesine doğrulamaktadır:
 
 ## 16. Profesyonel Portre (v2.1)
 
-Mikail Lekesiz (~1985, d. Türkiye), Fransa-Türkiye-İngiltere üçgeninde çalışan çok boyutlu bir teknik girişimcidir. Dört şirkete (Netz Informatique, Reflektif Bilişim A.Ş., CortexAI/UK, BilanCompetence.AI) ek olarak mikail.ai gibi yeni ürünler geliştirirken Université de Strasbourg'da yazılım programlarında eğitmenlik yapmaktadır. Kamuya açık yüzü olan **mikail.net**, onu "Technology Leader • Innovation Architect • Entrepreneur" olarak konumlandırır ve 15+ yıllık deneyimini, 243+ GitHub projesini, 47+ teknolojisini ve 275+ blog yazısını öne çıkarır.
+Mikail Lekesiz (~1985, d. Türkiye), Fransa-Türkiye-İngiltere üçgeninde çalışan çok boyutlu bir teknik girişimcidir. Dört şirkete (Netz Informatique, Reflektif Bilişim A.Ş., CortexAI/UK, BilanCompetence.AI) ek olarak mikail.ai gibi yeni ürünler geliştirirken Université de Strasbourg'da yazılım programlarında eğitmenlik yapmaktadır. **LP DWCA** (2025) gibi mesleki eğitim yeterliliklerine sahiptir ve **WORLDEF Ecom Top Voice İstanbul 2026**'da **Approved Speaker** olarak Reflektif.net'i (920+ meslek referansı) tanıtmaktadır. Kamuya açık yüzü olan **mikail.net**, onu "Technology Leader • Innovation Architect • Entrepreneur" olarak konumlandırır; 15+ yıllık deneyimini, 243+ GitHub projesini, 47+ teknolojisini ve 275+ blog yazısını öne çıkarır (gerçek tarama 351 yazı).
 
 Kendi psikometrik testi onu "Vizyoner Sistem Mimarı" olarak tanımlamaktadır: Sorumluluk %100 + Deneyime Açıklık %100 kombinasyonu "yapılandırılmış devrimci" profilini oluşturmakta; Fedakarlık %100 + Yaratıcılık %100 değerleri ise "insanlığın kendini tanıma altyapısını inşa etme" misyonunu beslemektedir. Site üzerindeki felsefesi özetle şudur: "Technology should amplify human potential, not replace it."
 
@@ -398,7 +441,7 @@ Yapılandırılmış devrimci profili — disiplin + inovasyon + ölçeklenebili
 
 ## 17. AI Hafıza Sınırları
 
-Bu doküman 9 AI modeli, Gmail, Google Drive, kullanıcı yanıtları, paylaşılan belgeler **ve kamuya açık mikail.net içeriği** üzerinden üretilmiştir. Hassas veriler maskelenmiştir. Kullanıcı onayından geçtiği için v1.0'dan çok daha güvenilir olmakla birlikte, bazı alanlar (cortexai.uk detayları, mikail.ai kapsamı, TÜBİTAK 1505 aşaması) hâlâ kısmi bilgi içermektedir.
+Bu doküman 9 AI modeli, Gmail, Google Drive, kullanıcı yanıtları, paylaşılan belgeler **ve kamuya açık web kaynakları (mikail.net, portfolio.lekesiz.fr, lekesiz.*, Viadeo, WORLDEF)** üzerinden üretilmiştir. Hassas veriler maskelenmiştir. Kullanıcı onayından geçtiği için v1.0'dan çok daha güvenilir olmakla birlikte, bazı alanlar (cortexai.uk detayları, mikail.ai kapsamı, TÜBİTAK 1505 aşaması, portfolyodaki isim verilmemiş vaka çalışmaları) hâlâ kısmi veya bağımsız doğrulanmamış bilgi içermektedir.
 
 > ⚠️ Bu repo **public** ise hassas bölümlerin (hukuki, finansal, aile) ayrı private repoya taşınması önerilir.
 
@@ -413,5 +456,15 @@ Bu doküman 9 AI modeli, Gmail, Google Drive, kullanıcı yanıtları, paylaşı
 | [mikail.net/portfolio/](https://mikail.net/portfolio/) | Teknik uzmanlık, sayısal metrikler | Konsolide profil ile uyumlu |
 | [mikail.net/mikail/](https://mikail.net/mikail/) | Türkçe detaylar, eğitim, Netz iş ortakları, stratejik hedefler | Konsolide profil ile uyumlu |
 | [mikail.net/contact/](https://mikail.net/contact/) | Hizmet alanları ve işbirliği modeli | Konsolide profil ile uyumlu |
+| [mikail.net/blog/](https://mikail.net/blog/) | 351 yazı, 6 ana tema, 2023–2026 | Konsolide profil ile uyumlu |
+| [portfolio.lekesiz.fr](https://portfolio.lekesiz.fr) | Sertifikalar, detaylı yetkinlikler, projeler, vaka çalışmaları | Kısmen uyumlu; Microsoft/IBM sunumunda tutarsızlık |
+| [lekesiz.eu / .fr / .info / .net](https://lekesiz.eu) | Kısa çok dilli kamu profilleri | Kısmen uyumlu; istatistikler eski/daha düşük |
+| [Viadeo](https://viadeo.journaldunet.com/p/mikail-lekesiz-706076) | Netz CEO, Anadolu Üniversitesi 2008–2012 | Konsolide profil ile uyumlu |
+| [WORLDEF Top Voice](https://topvoice.worldef.com/istanbul-2026/mikail-lekesiz) | İstanbul 2026 konuşmacısı, Reflektif 920+ meslek | Konsolide profil ile uyumlu |
 
-Ayrıntılı çıkarım için bkz. [`external-sources/mikail.net-scrape.md`](../external-sources/mikail.net-scrape.md).
+Ayrıntılı çıkarımlar için bkz.:
+- [`external-sources/mikail.net-scrape.md`](../external-sources/mikail.net-scrape.md)
+- [`external-sources/mikail.net-blog-inventory.md`](../external-sources/mikail.net-blog-inventory.md)
+- [`external-sources/portfolio.lekesiz.fr-scrape.md`](../external-sources/portfolio.lekesiz.fr-scrape.md)
+- [`external-sources/lekesiz-domain-profiles-scrape.md`](../external-sources/lekesiz-domain-profiles-scrape.md)
+- [`external-sources/public-profiles-linkedin-viadeo-worldef-scrape.md`](../external-sources/public-profiles-linkedin-viadeo-worldef-scrape.md)

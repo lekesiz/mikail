@@ -9,8 +9,8 @@
 En güncel ve doğrulanmış bilgiye ulaşmak için buradan başla:
 
 ### [`ai-memory/ai-memory-CONSOLIDATED-mikail-lekesiz.md`](ai-memory/ai-memory-CONSOLIDATED-mikail-lekesiz.md)
-**v2.1 · Kullanıcı Onaylı + mikail.net Doğrulaması · 2026-06-25**  
-9 AI modeli + Gmail + Google Drive + Reflektif psikometrik rapor + **mikail.net kamuya açık site taraması** ile zenginleştirilmiş konsolide envanter.
+**v2.2 · Kullanıcı Onaylı + Çoklu Web Doğrulaması · 2026-06-25**  
+9 AI modeli + Gmail + Google Drive + Reflektif psikometrik rapor + **mikail.net / portfolio.lekesiz.fr / lekesiz.* / Viadeo / WORLDEF** kamuya açık taramaları ile zenginleştirilmiş konsolide envanter.
 
 ### [`ai-memory/reflektif-psychometric-profile-RF-1985-F117.md`](ai-memory/reflektif-psychometric-profile-RF-1985-F117.md)
 **Reflektif platformundan kişisel psikometrik çıktı**  
@@ -29,8 +29,9 @@ RIASEC: IAE · Big Five: Sorumluluk & Açıklık %100 · Değerler: Fedakarlık 
 | 🇹🇷 **Türkiye** | **Reflektif Bilişim A.Ş.** — İstanbul Zaim Teknopark · AI psikometrik kariyer platformu · 1000+ kullanıcı |
 | 🇬🇧 **İngiltere** | **CortexAI** — [cortexai.uk](https://cortexai.uk) |
 | 🌐 **Ürünler** | **BilanCompetence.AI** · **mikail.ai** · **haguenau.pro** · **recup-donnee.fr** · **formation-haguenau.fr** |
-| 📝 **Kamu yüzü** | [mikail.net](https://mikail.net) · 243+ GitHub projesi · 47+ teknoloji · 275+ blog yazısı |
-| 🎓 **Akademik** | Anadolu Üniversitesi · Sakarya Üniversitesi · Université de Strasbourg eğitmeni · Sorbonne M1 AI (müracaat aşamasında) |
+| 📝 **Kamu yüzü** | [mikail.net](https://mikail.net) · 243+ GitHub projesi · 47+ teknoloji · 275+ blog yazısı (tarama: **351 yazı**) |
+| 🎓 **Akademik** | Anadolu Üniversitesi (~2008–2012) · Sakarya UZEM · LP DWCA (2025) · Université de Strasbourg eğitmeni · Sorbonne M1 AI (müracaat aşamasında) |
+| 🎤 **Etkinlik** | WORLDEF Ecom Top Voice İstanbul 2026 — Approved Speaker |
 | 🔬 **Araştırma** | TUSAŞ USİ-ARGE grant (USI-J0650-0213-35) · TÜBİTAK 1505 |
 
 ---
@@ -123,7 +124,11 @@ mikail/
 │       └── QUICK-INTROS.md                               ← Model bazlı giriş mesajları
 │
 ├── external-sources/
-│   └── mikail.net-scrape.md                              ← mikail.net kamuya açık çıkarımı
+│   ├── mikail.net-scrape.md                              ← mikail.net kamuya açık çıkarımı
+│   ├── mikail.net-blog-inventory.md                      ← 351 blog yazısı envanteri
+│   ├── portfolio.lekesiz.fr-scrape.md                    ← Portfolyo, sertifikalar, projeler
+│   ├── lekesiz-domain-profiles-scrape.md                 ← lekesiz.eu/.fr/.info/.net
+│   └── public-profiles-linkedin-viadeo-worldef-scrape.md ← Kamu profil parçacıkları
 │
 ├── multilingual/
 │   ├── README.md                                         ← 10 dilde içerik indeksi
@@ -132,7 +137,8 @@ mikail/
 │
 └── scripts/
     ├── generate_model_drafts.py                          ← 10 model için taslak üreten
-    └── generate_multilingual_content.py                  ← 10 dilde içerik üreten
+    ├── generate_multilingual_content.py                  ← 10 dilde içerik üreten
+    └── scrape_mikail_blog.py                             ← mikail.net blog yazılarını tarayan
 ```
 
 ---
@@ -173,11 +179,29 @@ Modellerin tahmini ile kullanıcı onaylı gerçekler arasındaki fark:
 | Gayrimenkul | ❓ "Belki FR" | **Fransa + Türkiye** |
 | Yaş | ⚠️ Kimi: "30 yaşında" | **~1985 doğumlu (~41)** |
 | mikail.ai | ❓ Bilinmiyordu | **Aktif yeni proje** |
-| Eğitim geçmişi | ❓ Bilinmiyordu | **Anadolu + Sakarya Üniversitesi** |
+| Eğitim geçmişi | ❓ Bilinmiyordu | **Anadolu (~2008–2012) · Sakarya UZEM · LP DWCA (2025)** |
+| Sertifikalar | Bilinmiyordu | **ChatGPT+Zapier · Google Workspace Admin · CCI Formateur** |
 | Netz sertifikaları | Yalnızca Qualiopi | **Qualiopi + ISO 21001** |
 | Netz mağaza trafiği | ❓ Bilinmiyordu | **~2.000 ziyaretçi/ay** |
-| Kamu istatistikleri | ❓ Bilinmiyordu | **243+ proje · 47+ teknoloji · 275+ yazı** |
-| İletişim kanalları | Gmail + GitHub | **mikail@lekesiz.fr · mikail@lekesiz.org · @lekesiz_mikail** |
+| Kamu istatistikleri | ❓ Bilinmiyordu | **243+ proje · 47+ teknoloji · 275+ yazı (gerçek: 351)** |
+| İletişim kanalları | Gmail + GitHub | **mikail@lekesiz.fr · mikail@lekesiz.org · @lekesiz_mikail · LinkedIn · Viadeo** |
+| Etkinlik / konuşmacılık | ❓ Bilinmiyordu | **WORLDEF Istanbul 2026 Approved Speaker** |
+| Reflektif meslek referansı | ❓ Bilinmiyordu | **920+ meslek** |
+| Ek kamu profilleri | ❓ Bilinmiyordu | **lekesiz.eu · lekesiz.fr · lekesiz.info · lekesiz.net** |
+
+---
+
+## 🔗 Harici Kaynak Çıkarımları
+
+Repo, yalnızca AI modellerinin çıktılarıyla değil, kamuya açık web kaynaklarıyla da zenginleştirilmiştir:
+
+| Kaynak | Dosya | İçerik |
+|---|---|---|
+| mikail.net | [`external-sources/mikail.net-scrape.md`](external-sources/mikail.net-scrape.md) | Profil, değerler, istatistikler, Netz detayları |
+| mikail.net blog | [`external-sources/mikail.net-blog-inventory.md`](external-sources/mikail.net-blog-inventory.md) | **351 yazı**, 6 tema, 2023–2026 kronolojisi |
+| portfolio.lekesiz.fr | [`external-sources/portfolio.lekesiz.fr-scrape.md`](external-sources/portfolio.lekesiz.fr-scrape.md) | Sertifikalar, 47 teknoloji, projeler, vaka çalışmaları |
+| lekesiz.* aile siteleri | [`external-sources/lekesiz-domain-profiles-scrape.md`](external-sources/lekesiz-domain-profiles-scrape.md) | Çok dilli kısa profiller |
+| LinkedIn / Viadeo / WORLDEF | [`external-sources/public-profiles-linkedin-viadeo-worldef-scrape.md`](external-sources/public-profiles-linkedin-viadeo-worldef-scrape.md) | Profesyonel ağ izleri, konuşmacılık |
 
 ---
 
