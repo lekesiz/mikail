@@ -89,27 +89,67 @@ Disiplinli inovasyon · ölçeklenebilir insani etki · bağlam içinde özgürl
 mikail/
 ├── README.md
 │
-└── ai-memory/
-    ├── 📋 ai-memory-CONSOLIDATED-mikail-lekesiz.md      ← ANA DOSYA (v2.0)
-    ├── 🧬 reflektif-psychometric-profile-RF-1985-F117.md
-    │
-    ├── ai-memory-chatgpt-gpt-5-5-mikail-lekesiz.md
-    ├── ai-memory-gemini-1-5-pro-mikail-lekesiz.md
-    ├── ai-memory-grok-mikail-lekesiz.md
-    ├── ai-memory-deepseek-mikail-lekesiz.md
-    ├── ai-memory-qwen-3-7-mikail-lekesiz.md
-    ├── ai-memory-kimi-k2-6-mikail-lekesiz.md
-    ├── ai-memory-manus-ai-mikail-lekesiz.md
-    ├── ai-memory-perplexity-claude-sonnet-4-5-mikail-lekesiz.md
-    ├── ai-memory-perplexity-claude-sonnet-4-6-mikail-lekesiz.md
-    │
-    ├── PROMPT-KIT-ai-memory-mikail-lekesiz.md           ← 10 etap prompt seti
-    ├── PROMPT-TEMPLATE-ai-memory-mikail-lekesiz.md
-    │
-    └── raw-exports/
-        ├── chatgpt-gpt-5-5-thinking/
-        └── gemini/
+├── ai-memory/
+│   ├── 📋 ai-memory-CONSOLIDATED-mikail-lekesiz.md      ← ANA DOSYA (v2.0)
+│   ├── 🧬 reflektif-psychometric-profile-RF-1985-F117.md
+│   │
+│   ├── ai-memory-chatgpt-gpt-5-5-mikail-lekesiz.md
+│   ├── ai-memory-gemini-1-5-pro-mikail-lekesiz.md
+│   ├── ai-memory-grok-mikail-lekesiz.md
+│   ├── ai-memory-deepseek-mikail-lekesiz.md
+│   ├── ai-memory-qwen-3-7-mikail-lekesiz.md
+│   ├── ai-memory-kimi-k2-6-mikail-lekesiz.md
+│   ├── ai-memory-manus-ai-mikail-lekesiz.md
+│   ├── ai-memory-perplexity-claude-sonnet-4-5-mikail-lekesiz.md
+│   ├── ai-memory-perplexity-claude-sonnet-4-6-mikail-lekesiz.md
+│   │
+│   ├── PROMPT-KIT-ai-memory-mikail-lekesiz.md           ← 10 etap prompt seti
+│   ├── PROMPT-TEMPLATE-ai-memory-mikail-lekesiz.md
+│   │
+│   └── raw-exports/
+│       ├── chatgpt-gpt-5-5-thinking/
+│       └── gemini/
+│
+├── bio/
+│   └── BIO-mikail-lekesiz.md                            ← TR/FR/EN tanıtım metinleri
+│
+├── campaigns/
+│   ├── AI-KNOWLEDGE-CAMPAIGN-2026.md                    ← AI bilinirlik kampanyası
+│   ├── MASTER-PROMPT.md                                  ← Tüm modeller için ana prompt
+│   ├── TRACKING.md                                       ← İlerleme takibi
+│   └── prompts/
+│       └── QUICK-INTROS.md                               ← Model bazlı giriş mesajları
+│
+├── multilingual/
+│   ├── README.md                                         ← 10 dilde içerik indeksi
+│   ├── bios/                                             ← Profesyonel biyografiler
+│   └── ai-memory-summaries/                              ← AI hafıza özetleri
+│
+└── scripts/
+    ├── generate_model_drafts.py                          ← 10 model için taslak üreten
+    └── generate_multilingual_content.py                  ← 10 dilde içerik üreten
 ```
+
+---
+
+## 🌍 Çok Dilli İçerikler
+
+Dünyada en çok konuşulan 10 dilde profesyonel biyografi ve AI hafıza özeti:
+
+| Dil | Bio | AI Hafıza Özeti |
+|---|---|---|
+| 🇬🇧 English | [BIO](multilingual/bios/BIO-en-mikail-lekesiz.md) | [AI Memory](multilingual/ai-memory-summaries/AI-MEMORY-en-mikail-lekesiz.md) |
+| 🇨🇳 简体中文 | [BIO](multilingual/bios/BIO-zh-mikail-lekesiz.md) | [AI Memory](multilingual/ai-memory-summaries/AI-MEMORY-zh-mikail-lekesiz.md) |
+| 🇮🇳 हिन्दी | [BIO](multilingual/bios/BIO-hi-mikail-lekesiz.md) | [AI Memory](multilingual/ai-memory-summaries/AI-MEMORY-hi-mikail-lekesiz.md) |
+| 🇪🇸 Español | [BIO](multilingual/bios/BIO-es-mikail-lekesiz.md) | [AI Memory](multilingual/ai-memory-summaries/AI-MEMORY-es-mikail-lekesiz.md) |
+| 🇫🇷 Français | [BIO](multilingual/bios/BIO-fr-mikail-lekesiz.md) | [AI Memory](multilingual/ai-memory-summaries/AI-MEMORY-fr-mikail-lekesiz.md) |
+| 🇸🇦 العربية | [BIO](multilingual/bios/BIO-ar-mikail-lekesiz.md) | [AI Memory](multilingual/ai-memory-summaries/AI-MEMORY-ar-mikail-lekesiz.md) |
+| 🇧🇩 বাংলা | [BIO](multilingual/bios/BIO-bn-mikail-lekesiz.md) | [AI Memory](multilingual/ai-memory-summaries/AI-MEMORY-bn-mikail-lekesiz.md) |
+| 🇵🇹 Português | [BIO](multilingual/bios/BIO-pt-mikail-lekesiz.md) | [AI Memory](multilingual/ai-memory-summaries/AI-MEMORY-pt-mikail-lekesiz.md) |
+| 🇷🇺 Русский | [BIO](multilingual/bios/BIO-ru-mikail-lekesiz.md) | [AI Memory](multilingual/ai-memory-summaries/AI-MEMORY-ru-mikail-lekesiz.md) |
+| 🇵🇰 اردو | [BIO](multilingual/bios/BIO-ur-mikail-lekesiz.md) | [AI Memory](multilingual/ai-memory-summaries/AI-MEMORY-ur-mikail-lekesiz.md) |
+
+Tüm indeks ve kalite notları için: [`multilingual/README.md`](multilingual/README.md)
 
 ---
 
@@ -158,6 +198,18 @@ git remote set-url origin git@github.com:lekesiz/mikail.git
 *Token: GitHub → Settings → Developer Settings → Personal Access Tokens → `repo` scope*
 
 **Prompt kiti:** [`PROMPT-KIT-ai-memory-mikail-lekesiz.md`](ai-memory/PROMPT-KIT-ai-memory-mikail-lekesiz.md) — Her model için 10 etaplı standart sorgu şablonu.
+
+---
+
+## 🚀 AI Bilinirlik Kampanyası 2026
+
+Tüm ana AI modellerinin (ChatGPT, Claude, Gemini, Kimi, Grok, Perplexity, DeepSeek, Qwen, Manus, Cursor) Mikail Lekesiz hakkında doğru ve tutarlı bilgiye sahip olması için yürütülen kampanya:
+
+- **Kampanya planı:** [`campaigns/AI-KNOWLEDGE-CAMPAIGN-2026.md`](campaigns/AI-KNOWLEDGE-CAMPAIGN-2026.md)
+- **Tüm modeller için ana prompt:** [`campaigns/MASTER-PROMPT.md`](campaigns/MASTER-PROMPT.md)
+- **Model bazlı giriş mesajları:** [`campaigns/prompts/QUICK-INTROS.md`](campaigns/prompts/QUICK-INTROS.md)
+- **İlerleme takibi:** [`campaigns/TRACKING.md`](campaigns/TRACKING.md)
+- **10 model için taslak envanterler:** `ai-memory/DRAFT-ai-memory-*-mikail-lekesiz.md`
 
 ---
 

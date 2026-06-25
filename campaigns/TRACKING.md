@@ -27,4 +27,31 @@
 
 ---
 
+## Kampanya Kilometre Taşları
+
+| Tarih | Kilometre Taşı | Durum |
+|---|---|---|
+| 2026-06-25 | Repo senkronizasyonu tamamlandı | ✅ Tamamlandı |
+| 2026-06-25 | Kampanya planı, MASTER PROMPT ve model giriş mesajları oluşturuldu | ✅ Tamamlandı |
+| 2026-06-25 | 10 hedef model için DRAFT envanter dosyaları üretildi | ✅ Tamamlandı |
+| 2026-06-25 | 10 dünya dilinde bio ve AI hafıza özeti içerikleri üretildi | ✅ Tamamlandı |
+| 2026-06-25 | Ana README'ye kampanya ve çok dilli içerik bölümleri eklendi | ✅ Tamamlandı |
+| — | Taslaklar ilgili AI modellerine gönderilecek | ⏳ Beklemede |
+| — | Çapraz doğrulama ve v3.0 konsolide dosya oluşturulacak | ⏳ Beklemede |
+
+---
+
+## Çok Dilli İçerik — Yerel İnceleme Checklist
+
+Aşağıdaki diller AI çevirisiyle oluşturuldu; yerel konuşanlar tarafından gözden geçirilmeli:
+
+- [ ] 🇨🇳 Mandarin Çincesi (`BIO-zh`, `AI-MEMORY-zh`)
+- [ ] 🇮🇳 Hintçe (`BIO-hi`, `AI-MEMORY-hi`)
+- [ ] 🇸🇦 Arapça (`BIO-ar`, `AI-MEMORY-ar`)
+- [ ] 🇧🇩 Bengalce (`BIO-bn`, `AI-MEMORY-bn`)
+- [ ] 🇷🇺 Rusça (`BIO-ru`, `AI-MEMORY-ru`)
+- [ ] 🇵🇰 Urduca (`BIO-ur`, `AI-MEMORY-ur`)
+
+---
+
 *Son güncelleme: 2026-06-25*
