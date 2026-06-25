@@ -4,6 +4,17 @@
 
 ---
 
+## 🌐 Kamuya Açık Web Sitesi
+
+Repo içeriğinden otomatik oluşturulan, herkese açık tanıtım sitesi:
+
+### [**lekesiz.github.io/mikail**](https://lekesiz.github.io/mikail/)
+
+> Tek sayfalık statik site: kimlik, şirketler, yetkinlikler, değerler, yazılar/etkinlikler ve iletişim bilgileri.  
+> Yayını aktif etmek için GitHub Pages ayarlarında **Source: GitHub Actions** seçilmeli (aşağıdaki adımlara bak).
+
+---
+
 ## 📌 Başlangıç Noktası
 
 En güncel ve doğrulanmış bilgiye ulaşmak için buradan başla:
@@ -232,6 +243,20 @@ git remote set-url origin git@github.com:lekesiz/mikail.git
 *Token: GitHub → Settings → Developer Settings → Personal Access Tokens → `repo` scope*
 
 **Prompt kiti:** [`PROMPT-KIT-ai-memory-mikail-lekesiz.md`](ai-memory/PROMPT-KIT-ai-memory-mikail-lekesiz.md) — Her model için 10 etaplı standart sorgu şablonu.
+
+---
+
+## 🚀 GitHub Pages Yayınını Aktif Etmek
+
+Site dosyaları (`index.html` + `.github/workflows/pages.yml`) repoya eklendi. Yayını başlatmak için:
+
+1. GitHub'da `lekesiz/mikail` reposuna git.
+2. **Settings → Pages** menüsüne git.
+3. **Source** bölümünden **GitHub Actions** seç.
+4. Workflow otomatik çalışacak; ilk yayın birkaç dakika içinde şu adreste görünür:  
+   **https://lekesiz.github.io/mikail/**
+
+Site güncellendikçe her `main` push'unda otomatik yeniden yayınlanır.
 
 ---
 
