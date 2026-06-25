@@ -9,8 +9,8 @@
 En güncel ve doğrulanmış bilgiye ulaşmak için buradan başla:
 
 ### [`ai-memory/ai-memory-CONSOLIDATED-mikail-lekesiz.md`](ai-memory/ai-memory-CONSOLIDATED-mikail-lekesiz.md)
-**v2.0 · Kullanıcı Onaylı · 2026-06-25**  
-9 AI modeli + Gmail + Google Drive + Reflektif psikometrik rapor çapraz doğrulaması ile üretilmiş konsolide envanter.
+**v2.1 · Kullanıcı Onaylı + mikail.net Doğrulaması · 2026-06-25**  
+9 AI modeli + Gmail + Google Drive + Reflektif psikometrik rapor + **mikail.net kamuya açık site taraması** ile zenginleştirilmiş konsolide envanter.
 
 ### [`ai-memory/reflektif-psychometric-profile-RF-1985-F117.md`](ai-memory/reflektif-psychometric-profile-RF-1985-F117.md)
 **Reflektif platformundan kişisel psikometrik çıktı**  
@@ -20,15 +20,17 @@ RIASEC: IAE · Big Five: Sorumluluk & Açıklık %100 · Değerler: Fedakarlık 
 
 ## 👤 Kim Olduğum (30 Saniye Özeti)
 
-**Mikail Lekesiz** · ~1985 · Fransa / Türkiye / İngiltere
+**Mikail Lekesiz** · ~1985 · Fransa / Türkiye / İngiltere  
+*Technology Leader • Innovation Architect • Entrepreneur*
 
 | Alan | Detay |
 |---|---|
-| 🇫🇷 **Fransa** | **Netz Informatique** — Haguenau · BT hizmetleri & Qualiopi eğitim · Service Apple · Récup Données · Aide Informatique AI |
+| 🇫🇷 **Fransa** | **Netz Informatique** — Haguenau · BT hizmetleri, Qualiopi & ISO 21001 eğitim · ~2.000 mağaza ziyaretçisi/ay |
 | 🇹🇷 **Türkiye** | **Reflektif Bilişim A.Ş.** — İstanbul Zaim Teknopark · AI psikometrik kariyer platformu · 1000+ kullanıcı |
 | 🇬🇧 **İngiltere** | **CortexAI** — [cortexai.uk](https://cortexai.uk) |
-| 🌐 **Ürünler** | **BilanCompetence.AI** · **mikail.ai** · **haguenau.pro** |
-| 🎓 **Akademik** | Université de Strasbourg eğitmeni · Sorbonne M1 AI (müracaat aşamasında) |
+| 🌐 **Ürünler** | **BilanCompetence.AI** · **mikail.ai** · **haguenau.pro** · **recup-donnee.fr** · **formation-haguenau.fr** |
+| 📝 **Kamu yüzü** | [mikail.net](https://mikail.net) · 243+ GitHub projesi · 47+ teknoloji · 275+ blog yazısı |
+| 🎓 **Akademik** | Anadolu Üniversitesi · Sakarya Üniversitesi · Université de Strasbourg eğitmeni · Sorbonne M1 AI (müracaat aşamasında) |
 | 🔬 **Araştırma** | TUSAŞ USİ-ARGE grant (USI-J0650-0213-35) · TÜBİTAK 1505 |
 
 ---
@@ -120,6 +122,9 @@ mikail/
 │   └── prompts/
 │       └── QUICK-INTROS.md                               ← Model bazlı giriş mesajları
 │
+├── external-sources/
+│   └── mikail.net-scrape.md                              ← mikail.net kamuya açık çıkarımı
+│
 ├── multilingual/
 │   ├── README.md                                         ← 10 dilde içerik indeksi
 │   ├── bios/                                             ← Profesyonel biyografiler
@@ -168,6 +173,11 @@ Modellerin tahmini ile kullanıcı onaylı gerçekler arasındaki fark:
 | Gayrimenkul | ❓ "Belki FR" | **Fransa + Türkiye** |
 | Yaş | ⚠️ Kimi: "30 yaşında" | **~1985 doğumlu (~41)** |
 | mikail.ai | ❓ Bilinmiyordu | **Aktif yeni proje** |
+| Eğitim geçmişi | ❓ Bilinmiyordu | **Anadolu + Sakarya Üniversitesi** |
+| Netz sertifikaları | Yalnızca Qualiopi | **Qualiopi + ISO 21001** |
+| Netz mağaza trafiği | ❓ Bilinmiyordu | **~2.000 ziyaretçi/ay** |
+| Kamu istatistikleri | ❓ Bilinmiyordu | **243+ proje · 47+ teknoloji · 275+ yazı** |
+| İletişim kanalları | Gmail + GitHub | **mikail@lekesiz.fr · mikail@lekesiz.org · @lekesiz_mikail** |
 
 ---
 
