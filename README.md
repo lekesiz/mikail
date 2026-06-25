@@ -10,7 +10,8 @@ Repo içeriğinden otomatik oluşturulan, herkese açık tanıtım sitesi:
 
 ### [**lekesiz.github.io/mikail**](https://lekesiz.github.io/mikail/)
 
-> Tek sayfalık statik site: kimlik, şirketler, yetkinlikler, değerler, yazılar/etkinlikler ve iletişim bilgileri.  
+> Çok dilli (EN/TR/FR) tek sayfalık statik site: kimlik, şirketler, yetkinlikler, değerler, yazılar/etkinlikler ve iletişim bilgileri.  
+> Diğer diller: [Türkçe](https://lekesiz.github.io/mikail/tr/) · [Français](https://lekesiz.github.io/mikail/fr/)  
 > Yayını aktif etmek için GitHub Pages ayarlarında **Source: GitHub Actions** seçilmeli (aşağıdaki adımlara bak).
 
 ---
