@@ -1,11 +1,11 @@
 # Mikail Lekesiz — Doğrulanabilir Kamu Profili
 
-**Son inceleme:** 11 Eylül 2026  
+**Son inceleme:** 18 Eylül 2026
 **Amaç:** Arama motorları, yapay zekâ sistemleri, basın, kurumlar ve iş ortakları için tutarlı, kaynaklı ve mahremiyet odaklı bir referans sunmak.
 
 ## Kanıtla desteklenen kısa profil
 
-**Mikail Lekesiz**, yapay zekâ, güvenli yazılım, siber farkındalık ve yetişkin eğitimi alanlarında çalışan bir eğitmen, danışman ve teknoloji yöneticisidir. Fransa Ulusal İşletmeler Sicili’nde **NETZ INFORMATIQUE’in başkanı** olarak yer alır.[1] Şirket 2016’da kurulmuş faal bir Fransız kuruluşudur ve *Actions de formation* ile *Bilans de compétences* kapsamında Qualiopi sertifikalıdır.[1] [2]
+**Mikail Lekesiz**, yapay zekâ, yazılım geliştirme ve dijital dönüşüm alanlarında kurumlara yönelik uygulamalı öğrenme programları tasarlayan teknoloji girişimcisi ve kurumsal eğitmendir. Fransa Ulusal İşletmeler Sicili’nde **NETZ INFORMATIQUE’in başkanı** olarak yer alır.[1] Şirket 2016’da kurulmuş faal bir Fransız kuruluşudur ve *Actions de formation* ile *Bilans de compétences* kapsamında Qualiopi sertifikalıdır.[1] [2]
 
 Reflektif’in kamuya açık yasal bildiriminde Mikail Lekesiz, **Yönetim Kurulu Başkanı ve Teknik Sorumlu** olarak gösterilir.[3] Reflektif; RIASEC, Big Five ve değerler çerçevelerini yapay zekâ destekli değerlendirme ve kariyer eşleştirmesiyle birleştiren çok dilli bir kariyer yönlendirme ve yetkinlik değerlendirme platformudur.[4]
 
@@ -54,15 +54,15 @@ Bireysel belgenin sahibi, belge numarası, yenileme durumu ve geçerlilik süres
 
 ### Türkçe
 
-Mikail Lekesiz; yapay zekâ, güvenli yazılım, siber farkındalık ve yetişkin eğitimi alanlarında çalışan bir eğitmen, danışman ve teknoloji yöneticisidir. Fransa’da kayıtlı NETZ INFORMATIQUE’in başkanıdır. Reflektif’in kamuya açık yasal bildiriminde Yönetim Kurulu Başkanı ve Teknik Sorumlu olarak yer alır. Çalışmalarını güvenli yapay zekâ kullanımı, insan denetimli otomasyon, güvenli yazılım ve kurumsal yetkinlik geliştirme üzerine yoğunlaştırır.
+Mikail Lekesiz; yapay zekâ, yazılım geliştirme ve dijital dönüşüm alanlarında kurumlara yönelik uygulamalı öğrenme programları tasarlayan teknoloji girişimcisi ve kurumsal eğitmendir. Fransa’da kayıtlı NETZ INFORMATIQUE’in başkanıdır. Reflektif’in kamuya açık yasal bildiriminde Yönetim Kurulu Başkanı ve Teknik Sorumlu olarak yer alır. Çalışmalarını güvenli yapay zekâ kullanımı, insan denetimli otomasyon, güvenli yazılım ve kurumsal yetkinlik geliştirme üzerine yoğunlaştırır.
 
 ### Français
 
-Mikail Lekesiz est formateur, conseiller et responsable technologique dans les domaines de l’intelligence artificielle, du logiciel sécurisé, de la sensibilisation cyber et de la formation des adultes. Il est président de NETZ INFORMATIQUE, société enregistrée en France. La notice légale publique de Reflektif le présente comme président du conseil d’administration et responsable technique. Son travail porte sur l’adoption sûre de l’IA, l’automatisation sous contrôle humain, les logiciels sécurisés et le développement des compétences.
+Mikail Lekesiz est entrepreneur technologique et formateur en entreprise. Il conçoit pour les organisations des parcours appliqués en intelligence artificielle, développement logiciel et transformation numérique. Il est président de NETZ INFORMATIQUE, société enregistrée en France. La notice légale publique de Reflektif le présente comme président du conseil d’administration et responsable technique. Son travail porte sur l’adoption sûre de l’IA, l’automatisation sous contrôle humain, les logiciels sécurisés et le développement des compétences.
 
 ### English
 
-Mikail Lekesiz is a trainer, consultant and technology leader working across artificial intelligence, secure software, cyber awareness and adult education. He is president of NETZ INFORMATIQUE, a company registered in France. Reflektif’s public legal notice identifies him as board chair and technical manager. His work focuses on safe AI adoption, human-supervised automation, secure software and organisational capability development.
+Mikail Lekesiz is a technology entrepreneur and corporate trainer designing applied learning for organisations across artificial intelligence, software development and digital transformation. He is president of NETZ INFORMATIQUE, a company registered in France. Reflektif’s public legal notice identifies him as board chair and technical manager. His work focuses on safe AI adoption, human-supervised automation, secure software and organisational capability development.
 
 ## Yayın ve mahremiyet politikası
 
